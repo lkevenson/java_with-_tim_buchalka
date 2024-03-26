@@ -9,7 +9,7 @@ public class Challenge {
         double mySecondValue = 80.00d;
 
         // add both numbers together, then multiply bt 100.00
-        double myValuesTotal = (myFirstValue + mySecondValue) * 100.00d;
+        double myValuesTotal = myFirstValue + mySecondValue * 100.00d;
         System.out.println("myValuesTotal = " + myValuesTotal);
 
         // use the remainder operator, to figure out what the remainder from the
